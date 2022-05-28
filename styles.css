@@ -1,0 +1,136 @@
+:root{
+    --branco: #ffffff;
+    --cinza: #c0c0c0;
+    --botao-azul: #167BF7;
+    --preto-fundo: #00030C;
+    --inter: 'Inter';
+}
+
+body{
+    background-color: var(--preto-fundo);
+    color: var(--branco);
+    font-family: var(--inter);
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("/Meu Drive/Programacao/Alura_plus/img/Background.png");
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_titulo{
+    color: var(--branco);
+    font-size: 28px;
+    font-weight: 700;
+}
+.container_img{
+    margin: 1em 0 2em 0;
+}
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    font-weight: 700;
+    color: var(--branco);
+    text-decoration: none;
+    margin-bottom: 1em;
+ }
+ .container_botao2{
+     color: var(--branco);
+     background-color: transparent;
+     border: 2px solid var(--branco);
+     font-weight: 300;
+ }
+ .container_aviso{
+     font-size: 12px;
+     color: var(--cinza);
+ }
+ .container_caixa{
+     margin: 0 6em;
+ }
+
+ .secundario{
+     align-items: center;
+     margin: 0 10em;
+ }
+ .img_computador{
+     width: 80%;
+ }
+ .container_secundario_titulo{
+     font-size: 48px;
+     font-weight: 700;
+     margin-bottom: 0.3em;
+ }
+ .container_secundario_sub{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+ }
+ .container_botao_terceiro{
+     display: inline-block;
+     margin-top: 1em;
+     
+ }
+ .container_terceiro_descricao{
+     padding: 2em;
+ }
+ .img_telas{
+     margin-left: 5em;
+ }
+ .dispositivos_dispositivos{
+     display:flex;
+     justify-content: center;
+     list-style: none;
+     margin-bottom: 1em;
+ }
+ .dispositivos{
+     text-align: center;
+ }
+ .dispositivos_nome{
+     font-size: 32px;
+ }
+ .container_footer{
+     align-items: center;
+ }
+ .logo{
+     margin-bottom: 1em;
+ }
+ .container_footer_lista{
+     display: flex;
+     justify-content: center;
+    
+ }
+ .container_footer_itens{
+    margin: 0 0.3em;
+    font-size: 16px;
+    list-style: none;
+   
+ }
+ .container_footer_texto{
+     font-size: 14px;
+     text-align: center;
+     color: var(--cinza);
+     margin-top: 1em;
+ }
+ .container_footer_texto2{
+     margin: 1em 0 1em 0;
+ }
+ a{
+    text-decoration: none;
+    color: var(--branco);
+ }
+ a:hover{
+     color: var(--botao-azul);
+ }
